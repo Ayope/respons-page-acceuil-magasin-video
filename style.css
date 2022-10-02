@@ -5,9 +5,12 @@ header img{
     padding: 28px;
 } 
 
+ul {
+    display: inline-flex;
+    list-style:none;
+}
 
 li{
-    display: inline;
     float : left;    
 }
 
@@ -27,6 +30,7 @@ li{
 ol{
     padding-top: 0px;
     padding-left: 0px;
+    list-style: none;
 }
 
 ol li{
@@ -52,7 +56,6 @@ a:hover{
     border: black 1px solid;
     width: 140px;
     height: 400px;
-    padding-left: 3px;
 }
 .bords{
     display: flex;
@@ -82,3 +85,56 @@ a:hover{
     margin-left: 10px;
 }
 
+@media (max-width:1000px){
+header img{
+    margin-left:100px;
+    height: 100px;
+    width: 100px;
+}
+header{
+    display:block;
+}
+
+ul{
+    padding-left:3px;
+}
+
+.ml {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.bords div {
+    border: black 1px solid;
+    width: 90%;
+    height: auto;
+}
+
+.images {
+    padding: 6%;
+    width: 85%;
+    height: auto;
+}
+
+.bords{
+    display:block;
+}
+
+.bord2{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.bord3{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.bord4{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+}
