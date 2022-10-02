@@ -85,6 +85,22 @@ a:hover{
     margin-left: 10px;
 }
 
+@media print {
+    header img{
+        padding-left: 160px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    header ul{
+        display: none;
+    }
+}
+
+
+
 @media (max-width:1000px){
 header img{
     margin-left:100px;
